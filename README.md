@@ -1,2 +1,2 @@
 # newsmashandpass
-This is a new desing for smash and pass
+This is a new design for smash and pass
