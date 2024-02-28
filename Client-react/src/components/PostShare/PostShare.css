@@ -59,3 +59,37 @@
     padding-right: 20px;
     font-size: 12px;
 }
+
+.previewImage {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.useIcon, .previewImage > svg  {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+    border: 2px solid var(--yellow);
+    border-radius: 50%;
+}
+.useIcon:hover {
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+.previewImage > .selectedPostImage {
+    display: flex;
+    
+    margin-top: 50px;
+}
+
+.previewImage > img {
+    width: 75%;
+    /* height: 20rem; */
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}
