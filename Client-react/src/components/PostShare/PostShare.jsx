@@ -117,6 +117,7 @@ const PostShare = () => {
                                 />
     
                             </span>
+
                             <img className='selectedPostImage' src={image.image} alt="" />
 
                         </div>

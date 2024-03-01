@@ -4,10 +4,13 @@ import Comment from '../../img/comment.png'
 import Share from '../../img/share.png'
 import Heart from '../../img/like.png'
 import NotLike from '../../img/notlike.png'
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Post = ({data}) => {
     return (
-        <div className="Post">
+        <div key={uuidv4()} className="Post">
+
            <img className='postMainImg' src={data?.img} alt='' />
 
            <div className="postActions">

@@ -9,9 +9,9 @@ const Posts = () => {
         <div className='Posts'>
             {PostsData && PostsData.map((post, id) => {
                 return(
-                    <>
+                    <div key={id}>
                       <Post data={post} id={id} />
-                    </>
+                    </div>
                 )
             })}            
         </div>
